@@ -1,0 +1,2 @@
+# KaiBingo
+Rinnekai Stream Bingo

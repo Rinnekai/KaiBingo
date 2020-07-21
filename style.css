@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+}
+
+table {
+  margin: 0 auto;
+  border: 15px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 8px #888888;
+}
+  @media only screen and (max-width: 550px) {
+    table {
+      border: 5px solid black; } }
+
+td {
+  border: 3px solid black;
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  text-align: center;
+  line-height: 17px;
+  background-color: #eee;
+}
+  @media only screen and (max-width: 550px) {
+    td {
+      font-size: 5px;
+      line-height: 10px;
+      width: 80px;
+      height: 80px;
+      padding: 5px; } }
+td.selected {
+  background-color: lightblue;
+}
+td:hover {
+  cursor: pointer;
+}
+
+button {
+  margin: 20px 7px;
+}
+@media only screen and (max-width: 550px) {
+    button.btn-lg {
+      font-size: 16px; } }
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+@media only screen and (max-width: 550px) {
+    h1 {
+      font-size: 1.5rem; } }
+h4 {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
